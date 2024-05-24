@@ -1,0 +1,30 @@
+{
+	"1": {
+		"miniatura": "/assets/media/productosyservicios/servicios/restauraciones/webp/small_trabajo_1.jpg",
+		"detallada": "/assets/media/productosyservicios/servicios/restauraciones/webp/detailed_trabajo_1.webp"
+	},
+	"2": {
+		"miniatura": "/assets/media/productosyservicios/servicios/restauraciones/webp/small_trabajo_2.jpg",
+		"detallada": "/assets/media/productosyservicios/servicios/restauraciones/webp/detailed_trabajo_2.webp"
+	},
+	"3": {
+		"miniatura": "/assets/media/productosyservicios/servicios/restauraciones/webp/small_trabajo_3.jpg",
+		"detallada": "/assets/media/productosyservicios/servicios/restauraciones/webp/detailed_trabajo_3.webp"
+	},
+	"4": {
+		"miniatura": "/assets/media/productosyservicios/servicios/restauraciones/webp/small_trabajo_4.jpg",
+		"detallada": "/assets/media/productosyservicios/servicios/restauraciones/webp/detailed_trabajo_4.webp"
+	},
+	"5": {
+		"miniatura": "/assets/media/productosyservicios/servicios/restauraciones/webp/small_trabajo_5.jpg",
+		"detallada": "/assets/media/productosyservicios/servicios/restauraciones/webp/detailed_trabajo_5.webp"
+	},
+	"6": {
+		"miniatura": "/assets/media/productosyservicios/servicios/restauraciones/webp/small_trabajo_6.jpg",
+		"detallada": "/assets/media/productosyservicios/servicios/restauraciones/webp/detailed_trabajo_6.webp"
+	},
+	"7": {
+		"miniatura": "/assets/media/productosyservicios/servicios/restauraciones/webp/small_trabajo_7.jpg",
+		"detallada": "/assets/media/productosyservicios/servicios/restauraciones/webp/detailed_trabajo_7.webp"
+	}
+}

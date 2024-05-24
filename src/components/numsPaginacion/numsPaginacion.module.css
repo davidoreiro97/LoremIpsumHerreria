@@ -1,0 +1,18 @@
+.pageNum,
+.activePage {
+	background-color: white;
+	padding: 0.5em;
+	color: black;
+	text-decoration: none;
+	margin: 0.5em;
+}
+.activePage {
+	background-color: rgb(255, 149, 0);
+	color: black;
+	border: yellow 1px solid;
+}
+.numsContainer {
+	position: relative;
+	bottom: 0;
+	margin-bottom: 1em;
+}

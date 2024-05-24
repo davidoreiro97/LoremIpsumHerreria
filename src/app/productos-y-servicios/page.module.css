@@ -1,0 +1,22 @@
+.productosYServiciosContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	color: #e3dad3;
+	min-height: 100vh;
+	padding-top: 1em;
+}
+.productosYServiciosContainer__categoriasContainer {
+	width: 100%;
+	max-width: 1200px;
+}
+.categoriasContainer__itemsContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 0.5em;
+	gap: 1em;
+}

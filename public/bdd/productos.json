@@ -1,0 +1,404 @@
+{
+	"total_filas": 0,
+	"filas": [
+		{
+			"id": "1",
+			"key": "1",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo tambor 1",
+				"descripcion": "Chulengo,Asador Tambor Portátil\nContiene Accesorios (Parrilla,Palita y Atizador)\nPiso de ladrillos\nBase de 4 patas\nRuedas\nQuemador",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/1/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/1/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/1/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/1/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/1/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/1/detailed_3.avif"
+					]
+				},
+				"tags": ["asador", "chulengo", "asado", "parrillero", "tambor"]
+			}
+		},
+		{
+			"id": "2",
+			"key": "2",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador circular con accesorios",
+				"descripcion": "Asador circular.\nContiene Accesorios a pedido del cliente : Parrilla,Quemador,Tabla,Palita,Atizador,Estaca.\nPiso de chapa.\nBase de 3 patas\nSe pueden agregar ruedas.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/2/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/2/small_2.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/2/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/2/detailed_2.avif"
+					]
+				},
+				"tags": ["asador", "asado", "parrillero", "estaca", "tabla", "quemador"]
+			}
+		},
+		{
+			"id": "3",
+			"key": "3",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador cuadrado con accesorios",
+				"descripcion": "Asador cuadrado.\nContiene Accesorios a pedido del cliente : Parrilla,Quemador,Tabla,Palita,Atizador,Estaca.\nPiso de chapa.\nBase de 4 patas\nSe pueden agregar ruedas.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/3/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/small_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/small_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/small_5.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/3/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/detailed_5.avif"
+					]
+				},
+				"tags": ["asador", "asado", "parrillero", "estaca", "tabla", "quemador"]
+			}
+		},
+		{
+			"id": "4",
+			"key": "4",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo tambor 2",
+				"descripcion": "Asador tipo tambor o chulengo.\nContiene Accesorios : Parrilla,Palita,Atizador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas\nContiene ruedas.\nRejilla inferior para apoyar objetos.\nQuemador al costado.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/4/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/small_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/small_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/small_5.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/small_6.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_5.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_6.avif"
+					]
+				},
+				"tags": [
+					"asador",
+					"asado",
+					"parrillero",
+					"chulengo",
+					"quemador",
+					"tambor"
+				]
+			}
+		},
+		{
+			"id": "5",
+			"key": "5",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo tambor 3",
+				"descripcion": "Asador tipo tambor o chulengo con armario inferior.\nContiene Accesorios : Parrilla,Palita,Atizador,Quemador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas\nContiene ruedas.\nArmario inferior.\nQuemador al costado.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/5/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/small_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/small_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/small_5.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/small_6.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/small_7.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/small_8.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/5/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/detailed_5.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/detailed_6.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/detailed_7.avif",
+						"/assets/media/productosyservicios/productos/asadores/5/detailed_8.avif"
+					]
+				},
+				"tags": [
+					"asador",
+					"asado",
+					"parrillero",
+					"chulengo",
+					"quemador",
+					"tambor"
+				]
+			}
+		},
+		{
+			"id": "6",
+			"key": "6",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo tambor 4",
+				"descripcion": "Asador tipo tambor o chulengo cortado por la mitad.\nContiene Accesorios : Parrilla,Palita,Atizador,Estaca.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas\nContiene ruedas.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/6/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/6/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/6/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/6/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/6/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/6/detailed_3.avif"
+					]
+				},
+				"tags": [
+					"asador",
+					"asado",
+					"parrillero",
+					"chulengo",
+					"tambor",
+					"estaca"
+				]
+			}
+		},
+		{
+			"id": "7",
+			"key": "7",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador plegado",
+				"descripcion": "Asador tipo plegado con accesorios.\nContiene Accesorios : Parrilla,Palita,Atizador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas\nBarra frontal.\nEstanteria inferior.\nQuemador al costado.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/7/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/7/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/7/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/7/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/7/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/7/detailed_3.avif"
+					]
+				},
+				"tags": ["asador", "asado", "parrillero", "plegado", "quemador"]
+			}
+		},
+		{
+			"id": "8",
+			"key": "8",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo tambor 5",
+				"descripcion": "Asador tipo tambor con accesorios.\nContiene Accesorios : Parrilla,Palita,Atizador.\nPiso de chapa.\nBase de 3 patas\nDos ruedas.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/8/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/8/small_2.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/8/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/8/detailed_2.avif"
+					]
+				},
+				"tags": ["asador", "asado", "parrillero", "chulengo", "tambor"]
+			}
+		},
+		{
+			"id": "9",
+			"key": "9",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo tambor 6",
+				"descripcion": "Asador tipo tambor vertical.\nContiene Accesorios : Parrilla,Parrilla bifera,Palita,Atizador.\nPiso de ladrillos o chapa.\nBase de 3 patas",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/9/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/9/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/9/small_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/9/small_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/9/small_5.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/9/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/9/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/9/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/9/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/9/detailed_5.avif"
+					]
+				},
+				"tags": ["asador", "asado", "parrillero", "tambor"]
+			}
+		},
+		{
+			"id": "10",
+			"key": "10",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Mini chulengo",
+				"descripcion": "Asador tipo chulengo para balcon.\nPiso de chapa.\nBase de 4 patas",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/10/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/10/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/10/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/10/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/10/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/10/detailed_3.avif"
+					]
+				},
+				"tags": ["asador", "asado", "parrillero", "balcon"]
+			}
+		},
+		{
+			"id": "11",
+			"key": "11",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo plegado 2",
+				"descripcion": "Asador tipo plegado.\nContiene Accesorios : Parrilla con quemador incluido, Palita, Atizador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas.\nRuedas",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/11/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/11/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/11/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/11/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/11/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/11/detailed_3.avif"
+					]
+				},
+				"tags": ["asador", "asado", "parrillero", "plegado"]
+			}
+		},
+		{
+			"id": "12",
+			"key": "12",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo plegado 3",
+				"descripcion": "Asador tipo plegado.\nContiene Accesorios : Parrilla,Palita,Atizador,Quemador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas.\nContiene ruedas.\nQuemador y barra laterales desmontables.\nPiso inferior.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/12/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/12/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/12/small_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/12/small_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/12/small_5.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/12/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/12/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/12/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/12/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/asadores/12/detailed_5.avif"
+					]
+				},
+				"tags": [
+					"asador",
+					"asado",
+					"parrillero",
+					"plegado",
+					"modular",
+					"desmontable"
+				]
+			}
+		},
+		{
+			"id": "13",
+			"key": "13",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Disco con tapa",
+				"descripcion": "Disco.\nContiene Accesorios : Tapa, Patas desmontables.\nBase de 3 patas",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/13/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/13/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/13/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/13/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/13/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/13/detailed_3.avif"
+					]
+				},
+				"tags": ["disco", "cocina"]
+			}
+		},
+		{
+			"id": "14",
+			"key": "14",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Disco 2",
+				"descripcion": "Disco más hondo.\nContiene Accesorios : Tapa, Patas desmontables.\nBase de 3 patas",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/14/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/14/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/14/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/14/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/14/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/14/detailed_3.avif"
+					]
+				},
+				"tags": ["disco", "cocina"]
+			}
+		},
+		{
+			"id": "15",
+			"key": "15",
+			"valores": {
+				"categoria": "asadores",
+				"titulo": "Asador tipo Rocket",
+				"descripcion": "Asador tipo Rocket.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/asadores/15/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/15/small_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/15/small_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/15/small_4.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/15/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/15/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/15/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/asadores/15/detailed_4.avif"
+					]
+				},
+				"tags": ["cocina", "rocket"]
+			}
+		}
+	]
+}

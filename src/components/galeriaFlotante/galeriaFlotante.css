@@ -1,0 +1,54 @@
+.imagenDetalladaActivaContainer {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+	width: 100%;
+	height: 90vh;
+}
+.imagenDetalladaActivaContainer__cerrarBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	border: none;
+	padding: 0.5em;
+}
+.imagenDetalladaActivaContainer__cerrarBtn svg {
+	filter: drop-shadow(1px 1px 1px black);
+}
+.imagenDetalladaActivaContainer__img {
+	object-fit: contain;
+	width: 100%;
+	height: 90vh;
+	padding-bottom: 2em;
+	padding-top: 0.5em;
+}
+.imagenDetalladaActivaContainer__btnsContainer {
+	width: 100%;
+	position: absolute;
+	bottom: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.imagenDetalladaActivaContainer__atrasBtn,
+.imagenDetalladaActivaContainer__sigBtn {
+	width: clamp(3em, 6vw, 4em);
+	height: 3em;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	background-color: rgb(255, 255, 255);
+	justify-content: center;
+	overflow: hidden;
+	backdrop-filter: blur(10px);
+	padding: 2px;
+}
+.imagenDetalladaActivaContainer__atrasBtn svg,
+.imagenDetalladaActivaContainer__sigBtn svg {
+	width: 80%;
+	height: 80%;
+}

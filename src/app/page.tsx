@@ -1,95 +1,222 @@
-import Image from "next/image";
+"use client";
 import styles from "./page.module.css";
+import { CategoriaCard, SliderMainMenu } from "@/components/index";
+import Image from "next/image";
+export default function Inicio() {
+	return (
+		<>
+			<main className={styles.inicioMain}>
+				<section className={styles.inicioPrimerSection}>
+					<Image
+						className={styles.inicioPrimerSection__banner}
+						src="/assets/media/inicio/webp/banner.png"
+						alt="Imagen de banner"
+						width={1024}
+						height={150}
+					/>
+					<h1 className={styles.inicioPrimerSection__titulo}>
+						Dedicados a la <span className="textoResaltado">fabricación </span>{" "}
+						y reparación de{" "}
+						<span className="textoResaltado">
+							articulos para asados, rejas, muebles industriales, galpones y
+							tinglados
+						</span>{" "}
+						entre otros servicios y productos en la ciudad de{" "}
+						<span className="textoResaltado">Rosario, Santa Fe </span>y
+						alrededores.
+					</h1>
+					<div className={styles.prodYServiciosContainer}>
+						<CategoriaCard
+							linkHref="/productos-y-servicios"
+							imgSrc="/assets/media/icons/webp/asadoresIcon.webp"
+							imgAlt="Icono asadores"
+							txtLink="ASADORES"
+						/>
+						<CategoriaCard
+							linkHref="/productos-y-servicios"
+							imgSrc="/assets/media/icons/webp/rejasIcon.webp"
+							imgAlt="Icono rejas"
+							txtLink="REJAS"
+						/>
+						<CategoriaCard
+							linkHref="/productos-y-servicios"
+							imgSrc="/assets/media/icons/webp/mueblesIndustrialesIcon.webp"
+							imgAlt="Imagen de muebles industriales."
+							txtLink="MUEBLES IND."
+						/>
+						<CategoriaCard
+							linkHref="/productos-y-servicios"
+							imgSrc="/assets/media/icons/webp/galponesIcon.webp"
+							imgAlt="Imagen de galpones."
+							txtLink="GALPONES"
+						/>
+						<CategoriaCard
+							linkHref="/productos-y-servicios"
+							imgSrc="/assets/media/icons/webp/otrosProductosIcon.webp"
+							imgAlt="Imagen de otros productos."
+							txtLink="OTROS PRODUCTOS"
+						/>
+					</div>
+					<SliderMainMenu />
+				</section>
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+				<section className={styles.descAmpliadaContainer}>
+					<div
+						className={styles.descAmpliadaContainer__tituloSubtituloContainer}
+					>
+						<h2
+							className={
+								styles.descAmpliadaContainer__tituloSubtituloContainer__titulo
+							}
+						>
+							LoremIpsum Herrería
+						</h2>
+						<h2
+							className={
+								styles.descAmpliadaContainer__tituloSubtituloContainer__subtitulo
+							}
+						>
+							Brindamos soluciones a medida, productos totalmente personalizados
+						</h2>
+					</div>
+					<p className={styles.descAmpliadaContainer__texto}>
+						Somos una empresa de la ciudad de Argentina, Santa Fe, Rosario
+						dedicada a la fabricación y restauración de articulos para asados,
+						rejas, muebles industriales, galpones y tinglados entre otros
+						servicios y productos que ofrecemos. Nos basamos en el asesoramiento
+						al cliente, la venta sin intermediarios y la personalización de los
+						productos de nuestros clientes.
+						<br />
+						Con más de 16 años en el rubro, y una cantidad importante de
+						clientes satisfechos en todo el país, podemos brindarle la solución
+						a medida de su necesidad.
+					</p>
+				</section>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+				<div className={styles.prodServUbicacionContainer}>
+					<section className={styles.sectionContainer}>
+						<h2 className="titulo_1">PRODUCTOS</h2>
+						<div className={styles.prodYServiciosContainer}>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/asadoresIcon.webp"
+								imgAlt="Icono asadores"
+								txtLink="ASADORES"
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/accesoriosParrillasIcon.webp"
+								imgAlt="Imagen accesorios para asados"
+								txtLink="ACCESORIOS PARA ASADOS"
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/rejasIcon.webp"
+								imgAlt="Icono rejas"
+								txtLink="REJAS"
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/mueblesIndustrialesIcon.webp"
+								imgAlt="Imagen de muebles industriales."
+								txtLink="MUEBLES IND."
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/galponesIcon.webp"
+								imgAlt="Imagen de galpones."
+								txtLink="GALPONES"
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/escalerasIcon.webp"
+								imgAlt="Imagen escaleras"
+								txtLink="ESCALERAS"
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/barandasYPasamanosIcon.webp"
+								imgAlt="Imagen barandas y pasamanos"
+								txtLink="BARANDAS Y PASAMANOS"
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/mobiliarioUrbanoIcon.webp"
+								imgAlt="Imagen mobiliario urbano"
+								txtLink="MOBILIARIO URBANO"
+							/>
+						</div>
+					</section>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+					<section className={styles.sectionContainer}>
+						<h2 className="titulo_1">SERVICIOS</h2>
+						<div className={styles.prodYServiciosContainer}>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/asesoramientoIcon.webp"
+								imgAlt="Imagen asesoramiento"
+								txtLink="ASESORAMIENTO"
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/instalacionIcon.webp"
+								imgAlt="Imagen asesoramiento"
+								txtLink="INSTALACIONES"
+							/>
+							<CategoriaCard
+								linkHref="/productos-y-servicios"
+								imgSrc="/assets/media/icons/webp/restauracionIcon.webp"
+								imgAlt="Imagen asesoramiento"
+								txtLink="RESTAURACIONES"
+							/>
+						</div>
+					</section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+					<section className={styles.sectionContainer}>
+						<h2 className="titulo_1">TRABAJAMOS EN</h2>
+						<div className={styles.ubicacionesContainer__mapaYtextoContainer}>
+							<ul
+								className={
+									styles.ubicacionesContainer__mapaYtextoContainer__texto
+								}
+							>
+								<li>
+									Rosario - Uruguay 1368{" "}
+									<span className="textoResaltado">Sucursal</span>
+								</li>
+								<li>Constitución</li>
+								<li>General López</li>
+								<li>Caseros</li>
+								<li>Belgrano</li>
+								<li>Iriondo</li>
+								<li>San Lorenzo</li>
+								<li>San Jerónimo</li>
+								<li>San Martín</li>
+								<li>Santa Fe Capital</li>
+								<li>
+									Te encuentras más lejos?.{" "}
+									<a
+										className="textoResaltado"
+										href="https://wa.me/+5493417533746"
+										target="_blank"
+									>
+										<span className="textoResaltado">Consultanos</span>
+									</a>
+								</li>
+							</ul>
+							<Image
+								className={
+									styles.ubicacionesContainer__mapaYtextoContainer__mapa
+								}
+								src="/assets/media/inicio/webp/mapa-santa-fe.webp"
+								alt="Imagen de mapa"
+								width={576}
+								height={761}
+							/>
+						</div>
+					</section>
+				</div>
+			</main>
+		</>
+	);
 }

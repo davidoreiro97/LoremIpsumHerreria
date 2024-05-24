@@ -1,0 +1,113 @@
+.categoriaServiciosDetalleContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.categoriaServiciosDetalleContainer__titulo {
+	width: fit-content;
+	text-align: center;
+	position: relative;
+	font-size: clamp(14px, 1.5vh + 2vw, 36px);
+	font-family: "Poppins-Bold";
+	text-shadow: 0 0 2px black;
+	color: #e3dad3;
+}
+.subtitulo {
+	font-family: "Poppins-Bold";
+	font-size: clamp(14px, 1.5vh + 2vw, 22px);
+	text-shadow: 0 0 2px black;
+}
+.precio {
+	width: 100%;
+	margin-top: 1em;
+	padding: 0.2em;
+	background-color: #ff6e28;
+	color: #e3dad3;
+	font-family: "Poppins-Bold";
+	text-align: center;
+	font-size: clamp(12px, 0.5vh + 1vw, 1em);
+	text-shadow: 0 0 2px black;
+}
+.categoriaServiciosDetalleContainer__titulo::after {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -5%;
+	width: 110%;
+	height: 1px;
+	border-top: 5px solid #d06f2a;
+	content: "";
+}
+.precio::after {
+	content: "";
+	border: 0px;
+}
+.subtitulo::after {
+	border-top: 2px solid #d06f2a;
+	width: 110%;
+}
+.mediosContainer {
+	color: #e3dad3;
+	font-size: clamp(12px, 0.5vh + 1vw, 1em);
+	font-family: "Sarabun-Medium", "sans-serif";
+	padding-left: 1.5em;
+	padding-top: 0.5em;
+}
+
+.categoriaServiciosDetalleContainer__imgTextoContainer {
+	display: flex;
+	position: relative;
+	padding-bottom: 1em;
+}
+.categoriaServiciosDetalleContainer__imgTextoContainer__img {
+	position: absolute;
+	z-index: -1;
+	/* object-fit: cover; */
+	/* object-position: center; */
+	filter: brightness(0.4) blur(1px) opacity(0.8);
+	width: 100%;
+	max-width: 500px;
+	aspect-ratio: 1 / 1;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.categoriaServiciosDetalleContainer__imgTextoContainer__texto {
+	color: #e3dad3;
+	width: 100%;
+	max-width: 700px;
+	padding-top: 0.5em;
+	font-size: clamp(14px, 1vh + 1vw, 1.2em);
+	text-align: center;
+	font-family: "Sarabun-Medium", "sans-serif";
+	text-shadow: 0 0 2px black;
+}
+.footerAsesoramiento {
+	padding-top: 1em;
+	text-shadow: 0 0 2px black;
+}
+.mediosContainer {
+	font-size: clamp(14px, 1vh + 1vw, 1.2em);
+	font-family: "Sarabun-Medium", "sans-serif";
+	text-shadow: 0 0 2px black;
+}
+.trabajosContainer {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+@media (max-width: 800px) {
+	.categoriaServiciosDetalleContainer__imgTextoContainer__img {
+		position: absolute;
+		z-index: -1;
+		filter: brightness(0.4) blur(1px) opacity(0.8);
+		width: 100%;
+	}
+	.categoriaServiciosDetalleContainer__imgTextoContainer__textoContainer {
+		width: 100%;
+		max-width: 500px;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}

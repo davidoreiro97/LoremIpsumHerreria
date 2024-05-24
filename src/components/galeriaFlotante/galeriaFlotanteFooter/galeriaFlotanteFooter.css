@@ -1,0 +1,31 @@
+.galeriaFooterContainer {
+	width: 80%;
+	overflow: hidden;
+}
+.galeriaFooterContainer__scroll {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	overflow-x: scroll;
+}
+.galeriaFooterContainer__scroll::-webkit-scrollbar {
+	display: none; /* Ocultar el scrollbar track */
+}
+.galeriaFooterContainer__scroll__img {
+	width: 100px;
+	height: 90%;
+	margin: 0.5em;
+}
+
+.active {
+	filter: brightness(1.4);
+	border: #fe7d37 4px solid;
+}
+@media (max-width: 850px) {
+	.galeriaFooterContainer__scroll {
+		justify-content: flex-start;
+	}
+}
