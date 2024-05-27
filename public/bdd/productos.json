@@ -7,7 +7,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo tambor 1",
-				"descripcion": "Chulengo,Asador Tambor Portátil\nContiene Accesorios (Parrilla,Palita y Atizador)\nPiso de ladrillos\nBase de 4 patas\nRuedas\nQuemador",
+				"descripcion": "-Chulengo,Asador Tambor Portátil\n-Contiene Accesorios (Parrilla,Palita y Atizador)\n-Piso de ladrillos\n-Base de 4 patas\n-Ruedas\n-Quemador",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -30,7 +30,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador circular con accesorios",
-				"descripcion": "Asador circular.\nContiene Accesorios a pedido del cliente : Parrilla,Quemador,Tabla,Palita,Atizador,Estaca.\nPiso de chapa.\nBase de 3 patas\nSe pueden agregar ruedas.",
+				"descripcion": "-Asador circular.\n-Contiene Accesorios a pedido del cliente : Parrilla,Quemador,Tabla,Palita,Atizador,Estaca.\n-Piso de chapa.\n-Base de 3 patas\n-Se pueden agregar ruedas.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -51,15 +51,15 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador cuadrado con accesorios",
-				"descripcion": "Asador cuadrado.\nContiene Accesorios a pedido del cliente : Parrilla,Quemador,Tabla,Palita,Atizador,Estaca.\nPiso de chapa.\nBase de 4 patas\nSe pueden agregar ruedas.",
+				"descripcion": "-Asador cuadrado.\n-Contiene Accesorios a pedido del cliente : Parrilla,Quemador,Tabla,Palita,Atizador,Estaca.\n-Piso de chapa.\n-Base de 4 patas\n-Se pueden agregar ruedas.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
-						"/assets/media/productosyservicios/productos/asadores/3/small_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/small_5.avif",
 						"/assets/media/productosyservicios/productos/asadores/3/small_2.avif",
 						"/assets/media/productosyservicios/productos/asadores/3/small_3.avif",
 						"/assets/media/productosyservicios/productos/asadores/3/small_4.avif",
-						"/assets/media/productosyservicios/productos/asadores/3/small_5.avif"
+						"/assets/media/productosyservicios/productos/asadores/3/small_1.avif"
 					],
 					"detailed": [
 						"/assets/media/productosyservicios/productos/asadores/3/detailed_1.avif",
@@ -78,7 +78,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo tambor 2",
-				"descripcion": "Asador tipo tambor o chulengo.\nContiene Accesorios : Parrilla,Palita,Atizador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas\nContiene ruedas.\nRejilla inferior para apoyar objetos.\nQuemador al costado.",
+				"descripcion": "-Asador tipo tambor o chulengo.\n-Contiene Accesorios : Parrilla,Palita,Atizador.\n-Piso de ladrillos(refractarios o no).\n-Base de 4 patas\n-Contiene ruedas.\n-Rejilla inferior para apoyar objetos.\n-Quemador al costado.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -114,7 +114,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo tambor 3",
-				"descripcion": "Asador tipo tambor o chulengo con armario inferior.\nContiene Accesorios : Parrilla,Palita,Atizador,Quemador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas\nContiene ruedas.\nArmario inferior.\nQuemador al costado.",
+				"descripcion": "-Asador tipo tambor o chulengo con armario inferior.\n-Contiene Accesorios : Parrilla,Palita,Atizador,Quemador.\n-Piso de ladrillos(refractarios o no).\n-Base de 4 patas\n-Contiene ruedas.\n-Armario inferior.\n-Quemador al costado.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -154,7 +154,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo tambor 4",
-				"descripcion": "Asador tipo tambor o chulengo cortado por la mitad.\nContiene Accesorios : Parrilla,Palita,Atizador,Estaca.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas\nContiene ruedas.",
+				"descripcion": "-Asador tipo tambor o chulengo cortado por la mitad.\n-Contiene Accesorios : Parrilla,Palita,Atizador,Estaca.\n-Piso de ladrillos(refractarios o no).\n-Base de 4 patas\n-Contiene ruedas.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -184,7 +184,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador plegado",
-				"descripcion": "Asador tipo plegado con accesorios.\nContiene Accesorios : Parrilla,Palita,Atizador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas\nBarra frontal.\nEstanteria inferior.\nQuemador al costado.",
+				"descripcion": "-Asador tipo plegado con accesorios.\n-Contiene Accesorios : Parrilla,Palita,Atizador.\n-Piso de ladrillos(refractarios o no).\n-Base de 4 patas\n-Barra frontal.\n-Estanteria inferior.\n-Quemador al costado.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -207,7 +207,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo tambor 5",
-				"descripcion": "Asador tipo tambor con accesorios.\nContiene Accesorios : Parrilla,Palita,Atizador.\nPiso de chapa.\nBase de 3 patas\nDos ruedas.",
+				"descripcion": "-Asador tipo tambor con accesorios.\n-Contiene Accesorios : Parrilla,Palita,Atizador.\n-Piso de chapa.\n-Base de 3 patas\n-Dos ruedas.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -228,7 +228,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo tambor 6",
-				"descripcion": "Asador tipo tambor vertical.\nContiene Accesorios : Parrilla,Parrilla bifera,Palita,Atizador.\nPiso de ladrillos o chapa.\nBase de 3 patas",
+				"descripcion": "-Asador tipo tambor vertical.\n-Contiene Accesorios : Parrilla,Parrilla bifera,Palita,Atizador.\n-Piso de ladrillos o chapa.\n-Base de 3 patas",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -255,7 +255,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Mini chulengo",
-				"descripcion": "Asador tipo chulengo para balcon.\nPiso de chapa.\nBase de 4 patas",
+				"descripcion": "-Asador tipo chulengo para balcon.\n-Piso de chapa.\n-Base de 4 patas",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -278,7 +278,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo plegado 2",
-				"descripcion": "Asador tipo plegado.\nContiene Accesorios : Parrilla con quemador incluido, Palita, Atizador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas.\nRuedas",
+				"descripcion": "-Asador tipo plegado.\n-Contiene Accesorios : Parrilla con quemador incluido, Palita, Atizador.\n-Piso de ladrillos(refractarios o no).\n-Base de 4 patas.\n-Ruedas",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -301,7 +301,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo plegado 3",
-				"descripcion": "Asador tipo plegado.\nContiene Accesorios : Parrilla,Palita,Atizador,Quemador.\nPiso de ladrillos(refractarios o no).\nBase de 4 patas.\nContiene ruedas.\nQuemador y barra laterales desmontables.\nPiso inferior.",
+				"descripcion": "-Asador tipo plegado.\n-Contiene Accesorios : Parrilla,Palita,Atizador,Quemador.\n-Piso de ladrillos(refractarios o no).\n-Base de 4 patas.\n-Contiene ruedas.\n-Quemador y barra laterales desmontables.\n-Piso inferior.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -335,7 +335,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Disco con tapa",
-				"descripcion": "Disco.\nContiene Accesorios : Tapa, Patas desmontables.\nBase de 3 patas",
+				"descripcion": "-Disco.\n-Contiene Accesorios : Tapa, Patas desmontables.\n-Base de 3 patas",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -358,7 +358,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Disco 2",
-				"descripcion": "Disco más hondo.\nContiene Accesorios : Tapa, Patas desmontables.\nBase de 3 patas",
+				"descripcion": "-Disco más hondo.\n-Contiene Accesorios : Tapa, Patas desmontables.\n-Base de 3 patas",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -381,7 +381,7 @@
 			"valores": {
 				"categoria": "asadores",
 				"titulo": "Asador tipo Rocket",
-				"descripcion": "Asador tipo Rocket.",
+				"descripcion": "-Asador tipo Rocket.",
 				"precio": "Consultar al 155989675",
 				"imagenes": {
 					"small": [
@@ -398,6 +398,436 @@
 					]
 				},
 				"tags": ["cocina", "rocket"]
+			}
+		},
+		{
+			"id": "16",
+			"key": "16",
+			"valores": {
+				"categoria": "accesoriosParaAsados",
+				"titulo": "Parrilla con modulo",
+				"descripcion": "-Parrilla modular.\n-Contiene Accesorios : Modulo para bifes, Modulo para parrilla, Mini parrilla para 2do piso.\n",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/1/small_1.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/1/small_2.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/1/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/1/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/1/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/1/detailed_3.avif"
+					]
+				},
+				"tags": ["parrilla", "plancha", "plancha bifera", "modular"]
+			}
+		},
+		{
+			"id": "17",
+			"key": "17",
+			"valores": {
+				"categoria": "accesoriosParaAsados",
+				"titulo": "Plancha bifera 1 hornalla.",
+				"descripcion": "-Plancha bifera para hornalla.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/2/small_1.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/2/detailed_1.avif"
+					]
+				},
+				"tags": ["plancha", "plancha bifera", "cocina"]
+			}
+		},
+		{
+			"id": "18",
+			"key": "18",
+			"valores": {
+				"categoria": "accesoriosParaAsados",
+				"titulo": "Parrilla a dos fuegos.",
+				"descripcion": "-Parrilla con bandeja para carbon o para comida en la parte superior.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/3/small_1.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/3/small_2.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/3/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/3/detailed_2.avif"
+					]
+				},
+				"tags": ["parrilla", "doble", "asado", "dos fuegos"]
+			}
+		},
+		{
+			"id": "19",
+			"key": "19",
+			"valores": {
+				"categoria": "accesoriosParaAsados",
+				"titulo": "Barra móvil",
+				"descripcion": "-Barra móvil con estantería en medio y ruedas.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/4/small_1.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/4/small_2.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/4/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/asadores/4/detailed_2.avif"
+					]
+				},
+				"tags": ["barra", "asados", "parrilleros", "móvil", "movil"]
+			}
+		},
+		{
+			"id": "20",
+			"key": "20",
+			"valores": {
+				"categoria": "accesoriosParaAsados",
+				"titulo": "Kit Palita Atizador y Pinza",
+				"descripcion": "-Kit de Palita, Atizador y Pinza, también se pueden vender por separado.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/small_1.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/small_2.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/small_3.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/small_4.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/small_5.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/5/detailed_5.avif"
+					]
+				},
+				"tags": [
+					"palita",
+					"pala",
+					"atizador",
+					"pinza",
+					"pinzas",
+					"kit",
+					"asado"
+				]
+			}
+		},
+		{
+			"id": "21",
+			"key": "21",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Rack mesa de Tv Industrial",
+				"descripcion": "Producto de diseño moderno y estilo industrial cuya combinacion de texturas y colores lo convierte en el complemento ideal de cualquier estilo de decoración de interiores y le brinda al ambiente la calidez necesaria para volverlo más acogedor.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/1/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/1/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/1/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/1/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/1/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/1/detailed_3.avif"
+					]
+				},
+				"tags": ["mesa", "rack", "comoda", "organizador"]
+			}
+		},
+		{
+			"id": "22",
+			"key": "22",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Estanteria tipo industrial",
+				"descripcion": "Estantería de tipo industrial de 5 estantes, puede ser modificada a pedido del cliente.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/small_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/small_4.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/small_5.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/2/detailed_5.avif"
+					]
+				},
+				"tags": ["estanteria", "industrial", "estantes"]
+			}
+		},
+		{
+			"id": "23",
+			"key": "23",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Escritorio tipo industrial",
+				"descripcion": "Escritorio con 2 cajones estilo industrial.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/small_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/small_4.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/small_5.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/3/detailed_5.avif"
+					]
+				},
+				"tags": ["escritorio", "industrial", "pc"]
+			}
+		},
+		{
+			"id": "24",
+			"key": "24",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Mesa plegable",
+				"descripcion": "Mesa plegable con manija estilo industrial.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/4/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/4/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/4/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/4/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/4/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/4/detailed_3.avif"
+					]
+				},
+				"tags": ["escritorio", "industrial", "pc", "mesa", "plegable"]
+			}
+		},
+		{
+			"id": "25",
+			"key": "25",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Escritorio industrial 2",
+				"descripcion": "Escritorio tipo industrial con 2 cajones abiertos.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/5/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/5/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/5/small_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/5/small_4.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/5/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/5/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/5/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/5/detailed_4.avif"
+					]
+				},
+				"tags": ["escritorio", "industrial", "pc", "mesa", "plegable"]
+			}
+		},
+		{
+			"id": "26",
+			"key": "26",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Cajonera industrial",
+				"descripcion": "Cajonera tipo industrial.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/6/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/6/small_2.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/6/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/6/detailed_2.avif"
+					]
+				},
+				"tags": ["cajonera", "industrial"]
+			}
+		},
+		{
+			"id": "27",
+			"key": "27",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Rack mesa de tv industrial 2",
+				"descripcion": "Rack mesa de tv industrial.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/7/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/7/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/7/small_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/7/small_4.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/7/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/7/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/7/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/7/detailed_4.avif"
+					]
+				},
+				"tags": ["cajonera", "industrial", "rack", "tv", "cajonera", "cajones"]
+			}
+		},
+		{
+			"id": "28",
+			"key": "28",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Rack mesa de tv industrial 3",
+				"descripcion": "Rack mesa de tv industrial.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/8/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/8/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/8/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/8/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/8/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/8/detailed_3.avif"
+					]
+				},
+				"tags": ["cajonera", "industrial", "rack", "tv", "cajonera", "cajones"]
+			}
+		},
+		{
+			"id": "29",
+			"key": "29",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Estanteria industrial 2",
+				"descripcion": "Estanteria industrial",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/9/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/9/small_2.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/9/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/9/detailed_2.avif"
+					]
+				},
+				"tags": ["estanteria", "industrial"]
+			}
+		},
+		{
+			"id": "30",
+			"key": "30",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Estanteria industrial 3",
+				"descripcion": "Estanteria industrial",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/10/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/10/small_2.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/10/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/10/detailed_2.avif"
+					]
+				},
+				"tags": ["estanteria", "industrial", "cajon", "cajones"]
+			}
+		},
+		{
+			"id": "31",
+			"key": "31",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Mesa para sillon",
+				"descripcion": "Mesa para sillon o para silla.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/11/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/11/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/11/small_3.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/11/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/11/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/11/small_3.avif"
+					]
+				},
+				"tags": ["mesa", "sillon", "industrial"]
+			}
+		},
+		{
+			"id": "32",
+			"key": "32",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Cajonera industrial 2",
+				"descripcion": "Cajonera industrial 2.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/small_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/small_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/small_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/small_4.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/small_5.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/small_6.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/small_7.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/detailed_3.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/detailed_4.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/detailed_5.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/detailed_6.avif",
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/12/detailed_7.avif"
+					]
+				},
+				"tags": ["cajonera", "cajones", "industrial"]
+			}
+		},
+		{
+			"id": "33",
+			"key": "33",
+			"valores": {
+				"categoria": "muebles-industriales",
+				"titulo": "Organizador de zapatos",
+				"descripcion": "Organizador de zapatos.",
+				"precio": "Consultar al 155989675",
+				"imagenes": {
+					"small": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/13/small_1.avif"
+					],
+					"detailed": [
+						"/assets/media/productosyservicios/productos/mueblesIndustriales/13/detailed_1.avif"
+					]
+				},
+				"tags": ["zapatos", "organizador", "industrial"]
 			}
 		}
 	]

@@ -1,0 +1,78 @@
+.imgYgaleriaMinContainer {
+	display: flex;
+	height: clamp(200px, calc(100px + 25vw), 500px);
+}
+.imgYgaleriaMinContainer__galeriaMin {
+	display: flex;
+	gap: 2.5%;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	height: 100%;
+	position: relative;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.imgYgaleriaMinContainer__galeriaMin__img {
+	width: 100%;
+	height: calc(20% - 2.5%);
+	cursor: pointer;
+}
+.imgYgaleriaMinContainer__galeriaMin__MasImgBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	text-align: center;
+	width: 100%;
+	height: calc(20%);
+	font-size: 64px;
+	/* Por la propiedad font-size no estaría pudiendo hacer height: calc(20% - 1em), ver si le pongo un span dentro con position absolute */
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	font-family: "Poppins-Bold";
+}
+.imgYgaleriaMinContainer__img {
+	height: 100%;
+	width: auto;
+	cursor: pointer;
+}
+.galeriaFlotante {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow: hidden;
+	background-color: rgba(41, 41, 42, 0.821);
+	z-index: 100;
+}
+@media (max-width: 750px) {
+	.imgYgaleriaMinContainer {
+		flex-direction: column;
+		height: auto;
+		width: clamp(200px, calc(100px + 25vw), 500px);
+	}
+	.imgYgaleriaMinContainer__galeriaMin {
+		display: flex;
+		gap: 2.5%;
+		flex-direction: row;
+		height: 35px;
+		width: 100%;
+		margin: 0em;
+		margin-bottom: 0.5em;
+	}
+	.imgYgaleriaMinContainer__galeriaMin__img {
+		width: calc(20% - 2.5%);
+		height: 100%;
+		cursor: pointer;
+	}
+	.imgYgaleriaMinContainer__galeriaMin__MasImgBtn {
+		width: calc(20%);
+		height: 100%;
+		font-size: 12px;
+	}
+}

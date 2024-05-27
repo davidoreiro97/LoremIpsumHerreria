@@ -6,7 +6,6 @@ import "./menu.css";
 import {
 	InicioIcon,
 	ProductosYServiciosIcon,
-	DiseniaTuProductoIcon,
 	ContactIcon,
 	HamburgerIcon,
 	CloseMenuIcon,
@@ -100,24 +99,6 @@ const Menu = () => {
 				/>
 				PRODUCTOS Y<br />
 				SERVICIOS
-			</Link>
-			<Link
-				href="/diseniaTuProducto"
-				className={`menuContainer__item ${
-					pathname === "/diseniaTuProducto" ? "activeSection" : ""
-				}  ${responsiveMenuOpen ? "flexVisible" : ""}`}
-				onClick={() => {
-					setResponsiveMenuOpen(false);
-				}}
-			>
-				<DiseniaTuProductoIcon
-					width={36}
-					height={36}
-					color={
-						pathname === "/diseniaTuProducto" ? `${activeColor}` : "#e3dad3"
-					}
-				/>
-				DISEÑA TU PRODUCTO
 			</Link>
 			<Link
 				href="/contacto"

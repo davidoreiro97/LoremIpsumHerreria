@@ -27,25 +27,25 @@ export default function Inicio() {
 					</h1>
 					<div className={styles.prodYServiciosContainer}>
 						<CategoriaCard
-							linkHref="/productos-y-servicios"
+							linkHref="/productos-y-servicios/asadores?pag=1"
 							imgSrc="/assets/media/icons/webp/asadoresIcon.webp"
 							imgAlt="Icono asadores"
 							txtLink="ASADORES"
 						/>
 						<CategoriaCard
-							linkHref="/productos-y-servicios"
+							linkHref="/productos-y-servicios/rejas"
 							imgSrc="/assets/media/icons/webp/rejasIcon.webp"
 							imgAlt="Icono rejas"
 							txtLink="REJAS"
 						/>
 						<CategoriaCard
-							linkHref="/productos-y-servicios"
+							linkHref="/productos-y-servicios/muebles-industriales"
 							imgSrc="/assets/media/icons/webp/mueblesIndustrialesIcon.webp"
 							imgAlt="Imagen de muebles industriales."
 							txtLink="MUEBLES IND."
 						/>
 						<CategoriaCard
-							linkHref="/productos-y-servicios"
+							linkHref="/productos-y-servicios/galpones-y-tinglados"
 							imgSrc="/assets/media/icons/webp/galponesIcon.webp"
 							imgAlt="Imagen de galpones."
 							txtLink="GALPONES"
@@ -98,49 +98,49 @@ export default function Inicio() {
 						<h2 className="titulo_1">PRODUCTOS</h2>
 						<div className={styles.prodYServiciosContainer}>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/asadores?pag=1"
 								imgSrc="/assets/media/icons/webp/asadoresIcon.webp"
 								imgAlt="Icono asadores"
 								txtLink="ASADORES"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/accesoriosParaAsados?pag=1"
 								imgSrc="/assets/media/icons/webp/accesoriosParrillasIcon.webp"
 								imgAlt="Imagen accesorios para asados"
 								txtLink="ACCESORIOS PARA ASADOS"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/rejas"
 								imgSrc="/assets/media/icons/webp/rejasIcon.webp"
 								imgAlt="Icono rejas"
 								txtLink="REJAS"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/muebles-industriales"
 								imgSrc="/assets/media/icons/webp/mueblesIndustrialesIcon.webp"
 								imgAlt="Imagen de muebles industriales."
 								txtLink="MUEBLES IND."
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/galpones-y-tinglados"
 								imgSrc="/assets/media/icons/webp/galponesIcon.webp"
 								imgAlt="Imagen de galpones."
 								txtLink="GALPONES"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/escaleras-en-hierro"
 								imgSrc="/assets/media/icons/webp/escalerasIcon.webp"
 								imgAlt="Imagen escaleras"
 								txtLink="ESCALERAS"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/barandas-y-pasamanos"
 								imgSrc="/assets/media/icons/webp/barandasYPasamanosIcon.webp"
 								imgAlt="Imagen barandas y pasamanos"
 								txtLink="BARANDAS Y PASAMANOS"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/mobiliario-urbano"
 								imgSrc="/assets/media/icons/webp/mobiliarioUrbanoIcon.webp"
 								imgAlt="Imagen mobiliario urbano"
 								txtLink="MOBILIARIO URBANO"

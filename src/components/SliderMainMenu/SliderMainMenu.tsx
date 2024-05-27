@@ -104,11 +104,7 @@ const SliderMainMenu = () => {
 								Conocé nuestros asadores y sus productos asociados en nuestra
 								sección de productos y servicios, tenemos todo tipo de asadores,
 								estacas, palitas, atizadores, etc... Y si no lo tenemos, lo
-								hacemos a tu medida.{" "}
-								<span className="textoResaltado">
-									Consultá la sección de "Diseña tu producto" para hacer una
-									maqueta de tu parrillero.{" "}
-								</span>
+								hacemos a tu medida.
 							</p>
 						</div>
 					</div>
@@ -121,7 +117,7 @@ const SliderMainMenu = () => {
 								de todo tipo y tamaño, desde rejas para puertas y ventanas hasta
 								rejas para medidores de gas. Puede ver algunos de{" "}
 								<span className="textoResaltado">
-									nuestros mejores trabajos en la sección de "Rejas".
+									nuestros mejores trabajos en la sección de Rejas.
 								</span>
 							</p>
 						</div>
@@ -138,7 +134,7 @@ const SliderMainMenu = () => {
 								lugar de trabajo. Puede ver algúnos de{" "}
 								<span className="textoResaltado">
 									nuestros mejores trabajos realizados en la sección de
-									"Galpones".
+									Galpones.
 								</span>
 							</p>
 						</div>
@@ -158,7 +154,7 @@ const SliderMainMenu = () => {
 								<span className="textoResaltado">
 									{" "}
 									consultar los muebles industriales en stock en la sección de
-									"Muebles Ind."
+									Muebles Ind.
 								</span>
 								, en caso de requerir uno personalizado consultenos con una
 								maqueta de referencia.

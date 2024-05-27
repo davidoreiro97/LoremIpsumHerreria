@@ -1,0 +1,60 @@
+.galeriaTextoContainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+.galeriaTextoContainer__texto {
+	color: white;
+	text-wrap: pretty;
+	margin-left: 1.5em;
+	max-width: 350px;
+}
+.galeriaTextoContainer__texto__titulo {
+	font-family: "Poppins-Bold";
+	text-transform: uppercase;
+	background-image: linear-gradient(
+		to bottom,
+		#fe7d37,
+		#ff8848,
+		#ff9458,
+		#ff9e69,
+		#ffa979
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 1em;
+	font-size: clamp(16px, calc(3vw + 5px), 32px);
+}
+.galeriaTextoContainer__texto__detallesTitulo {
+	font-family: "Poppins-Bold";
+	text-decoration: underline;
+	font-size: clamp(12px, calc(2.5vw + 5px), 22px);
+}
+.galeriaTextoContainer__texto__precio {
+	font-family: "Poppins-Bold";
+	text-transform: uppercase;
+	color: rgb(57, 217, 57);
+	font-size: clamp(10px, calc(1.5vw + 5px), 18px);
+}
+.galeriaTextoContainer__texto__descripcion {
+	font-family: "Sarabun-Medium";
+	word-break: break-word;
+	font-size: clamp(10px, calc(1.5vw + 5px), 18px);
+	text-wrap: pretty;
+	hyphens: auto;
+}
+@media (max-width: 750px) {
+	.galeriaTextoContainer__texto {
+		margin-top: 0.5em;
+	}
+	.galeriaTextoContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.galeriaTextoContainer__texto {
+		margin-left: 0em;
+		text-align: center;
+	}
+}

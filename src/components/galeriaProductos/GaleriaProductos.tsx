@@ -24,7 +24,7 @@ const GaleriaProductos = ({ categoria, numPagina }: Props) => {
 	);
 
 	return (
-		<div className={styles.productosYpagContainer}>
+		<>
 			<div className={styles.productosContainer}>
 				{productosCategoria
 					.slice(limiteProdInicial, limiteProdFinal)
@@ -34,7 +34,10 @@ const GaleriaProductos = ({ categoria, numPagina }: Props) => {
 							key={index}
 							className={styles.productoCard}
 						>
-							<MiniSliderProducto urlMiniaturas={item.valores.imagenes.small} />
+							<MiniSliderProducto
+								urlMiniaturas={item.valores.imagenes.small}
+								pagina={numPagina}
+							/>
 							<div className={styles.textoProductoContainer}>
 								<h3 className={styles.productoCard__titulo}>
 									{item.valores.titulo}
@@ -42,17 +45,16 @@ const GaleriaProductos = ({ categoria, numPagina }: Props) => {
 								<h4 className={styles.productoCard__precio}>
 									Precio : {item.valores.precio}
 								</h4>
-								<span className={styles.productoCard__verBtn}>VER</span>
 							</div>
 						</Link>
 					))}
 			</div>
 			<NumsPaginacion
-				linkBase="/productos-y-servicios/asadores?pag="
+				linkBase={`/productos-y-servicios/${categoria}?pag=`}
 				cantPaginas={cantPaginas}
 				paginaActual={numPagina}
 			/>
-		</div>
+		</>
 	);
 };
 

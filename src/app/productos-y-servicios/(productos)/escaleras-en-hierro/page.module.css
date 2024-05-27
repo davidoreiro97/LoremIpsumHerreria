@@ -1,0 +1,17 @@
+.titulosContainer {
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	text-wrap: balance;
+	hyphens: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.galeriaContainer {
+	display: flex;
+	justify-content: center;
+}

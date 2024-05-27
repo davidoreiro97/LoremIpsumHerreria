@@ -87,7 +87,7 @@ body {
 }
 .subtitulo_2::after {
 	border-top: 2px solid #d06f2a;
-	width: 110%;
+	width: 100%;
 }
 
 .textoResaltado {

@@ -1,54 +1,58 @@
 "use client";
 import React from "react";
-import { useRef, useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./miniSliderProducto.module.css";
+import { FlechaIzqIcon, FlechaDerIcon } from "../../SvgIcons";
 import Image from "next/image";
 
-const MiniSliderProducto = ({ urlMiniaturas }: { urlMiniaturas: string[] }) => {
-	let $scrollSlider = useRef<HTMLDivElement>(null);
-	const handleClickImg = (event: React.MouseEvent<HTMLDivElement>) => {
-		event.preventDefault();
-		event.stopPropagation();
-	};
+const MiniSliderProducto = ({
+	urlMiniaturas,
+	pagina,
+}: {
+	urlMiniaturas: string[];
+	pagina: number;
+}) => {
+	const [currentIndex, setCurrentIndex] = useState(0);
+	// Reiniciar el índice de la imagen activa cuando cambia la página.
+	useEffect(() => {
+		setCurrentIndex(0);
+	}, [pagina]);
+
+	const [imagenActiva, setImagenActiva] = useState<string>(
+		urlMiniaturas[currentIndex]
+	);
+
+	useEffect(() => {
+		setImagenActiva(urlMiniaturas[currentIndex]);
+	}, [currentIndex, urlMiniaturas]);
 	const handleatrBtn = (event: React.MouseEvent<HTMLButtonElement>) => {
 		event.preventDefault();
 		event.stopPropagation();
-		const scrollSlider = $scrollSlider.current;
-		const tamañoImg = scrollSlider?.clientWidth;
-		if (scrollSlider && tamañoImg) {
-			scrollSlider.scrollLeft -= tamañoImg;
-		}
+		setCurrentIndex((prevIndex) =>
+			prevIndex > 0 ? prevIndex - 1 : urlMiniaturas.length - 1
+		);
 	};
-
 	const handlesigBtn = (event: React.MouseEvent<HTMLButtonElement>) => {
 		event.preventDefault();
 		event.stopPropagation();
-		const scrollSlider = $scrollSlider.current;
-		const tamañoImg = scrollSlider?.clientWidth;
-		if (scrollSlider && tamañoImg) {
-			scrollSlider.scrollLeft += tamañoImg;
-		}
+		setCurrentIndex((prevIndex) =>
+			prevIndex < urlMiniaturas.length - 1 ? prevIndex + 1 : 0
+		);
 	};
-	const [imagenActiva, setImagenActia] = useState(null);
 	return (
-		<div className={styles.sliderContainer} onClick={handleClickImg}>
+		<div className={styles.sliderContainer}>
 			<button className={styles.sliderContainer__atrBtn} onClick={handleatrBtn}>
-				Atras
+				<FlechaIzqIcon width={32} height={32} color="#D06F2A" />
 			</button>
-			<div className={styles.sliderContainer__scroll} ref={$scrollSlider}>
-				{urlMiniaturas.map((item, index) => (
-					<Image
-						className={styles.productoCard__imagen}
-						key={index}
-						src={item}
-						alt={`Imagen ${index + 1}`}
-						width={300}
-						height={300}
-					/>
-				))}
-			</div>
+			<Image
+				className={styles.productoCard__imagen}
+				src={imagenActiva}
+				alt={`Imagen de producto ${currentIndex}`}
+				width={300}
+				height={300}
+			/>
 			<button className={styles.sliderContainer__sigBtn} onClick={handlesigBtn}>
-				Sig
+				<FlechaDerIcon width={32} height={32} color="#D06F2A" />
 			</button>
 		</div>
 	);

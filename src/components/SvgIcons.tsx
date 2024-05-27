@@ -1,12 +1,9 @@
-import { transform } from "next/dist/build/swc";
 import React from "react";
-
 interface IconProps {
 	width: number;
 	height: number;
 	color: string;
 }
-
 export const InicioIcon = ({ width, height, color }: IconProps) => (
 	<>
 		<svg
@@ -70,55 +67,6 @@ export const ProductosYServiciosIcon = ({
 		</svg>
 	</>
 );
-export const DiseniaTuProductoIcon = ({ width, height, color }: IconProps) => (
-	<>
-		<svg viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
-			<g
-				data-name="G. Design"
-				id="G._Design"
-				fill={color}
-				width={width}
-				height={height}
-			>
-				<rect
-					height="17.5561"
-					transform="translate(-45.9754 32.5056) rotate(-45)"
-					width="2.95"
-					x="14.775"
-					y="62.9719"
-				/>
-				<rect
-					height="7.7782"
-					transform="translate(-19.9073 47.3535) rotate(-45)"
-					width="70.8322"
-					x="11.7909"
-					y="43.8179"
-				/>
-				<rect
-					height="7.7782"
-					transform="translate(-17.0434 40.4394) rotate(-45)"
-					width="70.8322"
-					x="4.8769"
-					y="36.9039"
-				/>
-				<path d="M82.4287,17.9854A8.7781,8.7781,0,1,0,70.0146,5.5713L67.5,8.0859,79.9141,20.5Z" />
-				<rect
-					height="17.5561"
-					transform="translate(9.0246 55.2873) rotate(-45)"
-					width="2.95"
-					x="69.775"
-					y="7.9719"
-				/>
-				<path d="M3.0454,83.7017a1,1,0,0,0,1.2529,1.2529l15.4226-4.82L7.865,68.2791Z" />
-				<path d="M9.793,22.793a1,1,0,0,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,0,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,0,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,0,1,1.414,1.414l-4.71,4.71L25.17,47.59l17-17L17.59,6,1.29,22.29a1.008,1.008,0,0,0,0,1.42l3.7929,3.793Z" />
-				<path d="M47.59,25.17,23.71,1.29a1.008,1.008,0,0,0-1.42,0L19,4.59,43.59,29.17Z" />
-				<path d="M86.71,64.29,62.83,40.41l-4,4L83.41,69l3.3-3.29A1.008,1.008,0,0,0,86.71,64.29Z" />
-				<path d="M40.41,62.83l3.6729,3.673,4.71-4.71a1,1,0,0,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,1,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,1,1,1.414,1.414l-4.71,4.71,3.5859,3.5859,4.71-4.71a1,1,0,1,1,1.414,1.414l-4.71,4.71L64.29,86.71a1.0141,1.0141,0,0,0,1.42,0L82,70.41,57.41,45.83Z" />
-			</g>
-		</svg>
-	</>
-);
-
 export const ContactIcon = ({ width, height, color }: IconProps) => (
 	<>
 		<svg
@@ -295,6 +243,33 @@ export const FlechaIzqIcon = ({ width, height, color }: IconProps) => (
 					</g>
 				</g>
 			</g>
+		</svg>
+	</>
+);
+export const ReturnIcon = ({ width, height, color }: IconProps) => (
+	<>
+		<svg
+			width={width}
+			height={height}
+			viewBox="0 0 48 48"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<rect width="48" height="48" fill="white" fill-opacity="0.01" />
+			<path
+				d="M12.3638 8L5.99981 14.364L12.3638 20.7279"
+				stroke={color}
+				strokeWidth="5"
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+			<path
+				d="M6 14.364L28.6722 14.364C35.557 14.364 41.2122 19.8028 41.4805 26.6824V26.6824C41.7641 33.952 35.9474 40 28.6722 40H12"
+				stroke={color}
+				stroke-width="5"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			/>
 		</svg>
 	</>
 );

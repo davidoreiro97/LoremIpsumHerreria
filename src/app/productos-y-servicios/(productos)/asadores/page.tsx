@@ -8,8 +8,6 @@ export default function Asadores({ params, searchParams }: any) {
 		<>
 			<div className={styles.tituloContainer}>
 				<h1 className="titulo_2">Asadores</h1>
-			</div>
-			<div className={styles.productosContainer}>
 				<GaleriaProductos categoria="asadores" numPagina={numPagina} />
 			</div>
 		</>

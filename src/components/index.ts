@@ -4,3 +4,4 @@ export { default as Footer } from "./Footer/Footer";
 export { default as CategoriaCard } from "./CategoriaCard/CategoriaCard";
 export { default as SliderMainMenu } from "./SliderMainMenu/SliderMainMenu";
 export { default as VolverButton } from "./VolverButton/VolverButton";
+export { default as GaleriaProductoDetalles } from "./galeriaProductoDetalles/GaleriaProductoDetalles";

@@ -1,0 +1,38 @@
+.sliderContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 80%;
+	position: relative;
+}
+.sliderContainer__atrBtn,
+.sliderContainer__sigBtn {
+	background-color: rgba(220, 220, 220, 0.25);
+	border: 1px solid rgba(0, 0, 0, 0.266);
+	width: 100%;
+	height: 100%;
+}
+.productoCard__imagen {
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: fill;
+	aspect-ratio: 1 / 1;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.sliderContainer__atrBtn,
+.sliderContainer__sigBtn {
+	position: absolute;
+	width: 32px;
+	height: 100%;
+}
+.sliderContainer__atrBtn {
+	border-top-left-radius: 15px;
+	left: 0;
+}
+.sliderContainer__sigBtn {
+	border-top-right-radius: 15px;
+	right: 0;
+}

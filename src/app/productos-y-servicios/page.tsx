@@ -19,7 +19,7 @@ export default function ProductosyServicios() {
 								txtLink="ASADORES"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios/accesorios-para-asados"
+								linkHref="/productos-y-servicios/accesoriosParaAsados"
 								imgSrc="/assets/media/icons/webp/accesoriosParrillasIcon.webp"
 								imgAlt="Imagen accesorios para asados"
 								txtLink="ACCESORIOS PARA ASADOS"
