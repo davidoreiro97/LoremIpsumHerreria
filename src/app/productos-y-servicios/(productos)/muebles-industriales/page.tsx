@@ -8,10 +8,10 @@ export default function Asadores({ params, searchParams }: any) {
 		<>
 			<div className={styles.tituloContainer}>
 				<h1 className="titulo_2">MUEBLES INDUSTRIALES</h1>
-				<GaleriaProductos
+				{/* <GaleriaProductos
 					categoria="muebles-industriales"
 					numPagina={numPagina}
-				/>
+				/> */}
 			</div>
 		</>
 	);

@@ -3,18 +3,18 @@ import Link from "next/link";
 import styles from "./numsPaginacion.module.css";
 type NumPaginacionProps = {
 	linkBase: string;
-	cantPaginas: number;
+	totalDePaginas: number;
 	paginaActual: number;
 };
 
 const NumsPaginacion = ({
 	linkBase,
-	cantPaginas,
+	totalDePaginas,
 	paginaActual,
 }: NumPaginacionProps) => {
 	return (
 		<div className={styles.numsContainer}>
-			{Array.from({ length: cantPaginas }, (_, i) => (
+			{Array.from({ length: totalDePaginas }, (_, i) => (
 				<Link
 					key={i}
 					className={
