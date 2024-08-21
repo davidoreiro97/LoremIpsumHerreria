@@ -1,11 +1,11 @@
 export const metadata = {
-	title: "LoremIpsum Herrería | Productos y servicios",
-	description: "Productos y servicios de LoremIpsum Herrería",
-}
+	title: "Rosario Herrería | Productos y servicios",
+	description: "Productos y servicios de Rosario Herrería",
+};
 export default function RootLayout({
 	children,
 }: {
-	children: React.ReactNode
+	children: React.ReactNode;
 }) {
-	return <>{children}</>
+	return <>{children}</>;
 }

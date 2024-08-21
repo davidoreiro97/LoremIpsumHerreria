@@ -1,7 +1,5 @@
-import Link from "next/link";
 import styles from "./page.module.css";
 import { CategoriaCard } from "@/components/index";
-import { VolverButton } from "@/components/index";
 export default function ProductosyServicios() {
 	return (
 		<>
@@ -13,13 +11,13 @@ export default function ProductosyServicios() {
 						<h1 className="titulo_1">PRODUCTOS</h1>
 						<div className={styles.categoriasContainer__itemsContainer}>
 							<CategoriaCard
-								linkHref="/productos-y-servicios/asadores?pag=1"
+								linkHref="/productos-y-servicios/asadores/1"
 								imgSrc="/assets/media/icons/webp/asadoresIcon.webp"
 								imgAlt="Imagen asadores"
 								txtLink="ASADORES"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios/accesoriosParaAsados"
+								linkHref="/productos-y-servicios/accesoriosParaAsados/1"
 								imgSrc="/assets/media/icons/webp/accesoriosParrillasIcon.webp"
 								imgAlt="Imagen accesorios para asados"
 								txtLink="ACCESORIOS PARA ASADOS"
@@ -43,7 +41,7 @@ export default function ProductosyServicios() {
 								txtLink="BARANDAS Y PASAMANOS"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios/muebles-industriales"
+								linkHref="/productos-y-servicios/muebles-industriales/1"
 								imgSrc="/assets/media/icons/webp/mueblesIndustrialesIcon.webp"
 								imgAlt="Icono barandas y pasamanos"
 								txtLink="MUEBLES INDUSTRIALES"

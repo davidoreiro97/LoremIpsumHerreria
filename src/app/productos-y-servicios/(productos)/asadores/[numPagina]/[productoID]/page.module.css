@@ -41,9 +41,11 @@
 .galeriaTextoContainer__texto__descripcion {
 	font-family: "Sarabun-Medium";
 	word-break: break-word;
-	font-size: clamp(10px, calc(1.5vw + 5px), 18px);
+	font-size: clamp(14px, calc(1.5vw + 8px), 18px);
 	text-wrap: pretty;
 	hyphens: auto;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 @media (max-width: 750px) {
 	.galeriaTextoContainer__texto {
@@ -56,5 +58,9 @@
 	.galeriaTextoContainer__texto {
 		margin-left: 0em;
 		text-align: center;
+	}
+	.galeriaTextoContainer__texto__descripcion {
+		padding-left: 2em;
+		padding-right: 2em;
 	}
 }

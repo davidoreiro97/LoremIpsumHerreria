@@ -68,8 +68,8 @@ export default function Contacto() {
 					<li className={styles.footerLayout__contactoContainer__item}>
 						<a
 							className={styles.footerLayout__contactoContainer__item__texto}
-							href="mailto:kinanelbarbaro@gmail.com"
-							title="kinanelbarbaro@gmail.com"
+							href="mailto:quinanelbarbaro@gmail.com"
+							title="quinanelbarbaro@gmail.com"
 							target="_blank"
 						>
 							<Image

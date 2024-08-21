@@ -7,7 +7,7 @@ const Footer = () => {
 				<li className={styles.footerLayout__contactoContainer__item}>
 					<a
 						className={styles.footerLayout__contactoContainer__item__texto}
-						href="https://wa.me/+5493417533746"
+						href="https://wa.me/+5493415989675"
 						target="_blank"
 						title="+54 9 341 - 5989675"
 					>
@@ -64,8 +64,8 @@ const Footer = () => {
 				<li className={styles.footerLayout__contactoContainer__item}>
 					<a
 						className={styles.footerLayout__contactoContainer__item__texto}
-						href="mailto:kinanelbarbaro@gmail.com"
-						title="kinanelbarbaro@gmail.com"
+						href="mailto:quinanelbarbaro@gmail.com"
+						title="quinanelbarbaro@gmail.com"
 						target="_blank"
 					>
 						<Image
@@ -83,7 +83,7 @@ const Footer = () => {
 				<li className={styles.footerLayout__contactoContainer__item}>
 					<a
 						className={styles.footerLayout__contactoContainer__item__texto}
-						title="3417533746"
+						title="3415989675"
 						target="_blank"
 					>
 						<Image

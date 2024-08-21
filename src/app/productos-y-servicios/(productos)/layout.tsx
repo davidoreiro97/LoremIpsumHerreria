@@ -1,7 +1,7 @@
 import VolverButton from "@/components/VolverButton/VolverButton";
 export const metadata = {
-	title: "LoremIpsum Herrería | Productos",
-	description: "Productos de LoremIpsum Herrería",
+	title: "Rosario Herrería | Productos",
+	description: "Productos de Rosario Herrería",
 };
 export default function RootLayout({
 	children,

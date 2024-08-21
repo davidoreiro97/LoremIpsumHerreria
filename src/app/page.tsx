@@ -18,8 +18,7 @@ export default function Inicio() {
 						Dedicados a la <span className="textoResaltado">fabricación </span>{" "}
 						y reparación de{" "}
 						<span className="textoResaltado">
-							articulos para asados, rejas, muebles industriales, galpones y
-							tinglados
+							rejas, muebles industriales, galpones, tinglados y herrería naval
 						</span>{" "}
 						entre otros servicios y productos en la ciudad de{" "}
 						<span className="textoResaltado">Rosario, Santa Fe </span>y
@@ -27,7 +26,7 @@ export default function Inicio() {
 					</h1>
 					<div className={styles.prodYServiciosContainer}>
 						<CategoriaCard
-							linkHref="/productos-y-servicios/asadores?pag=1"
+							linkHref="/productos-y-servicios/asadores/1"
 							imgSrc="/assets/media/icons/webp/asadoresIcon.webp"
 							imgAlt="Icono asadores"
 							txtLink="ASADORES"
@@ -39,7 +38,7 @@ export default function Inicio() {
 							txtLink="REJAS"
 						/>
 						<CategoriaCard
-							linkHref="/productos-y-servicios/muebles-industriales"
+							linkHref="/productos-y-servicios/muebles-industriales/1"
 							imgSrc="/assets/media/icons/webp/mueblesIndustrialesIcon.webp"
 							imgAlt="Imagen de muebles industriales."
 							txtLink="MUEBLES IND."
@@ -81,13 +80,13 @@ export default function Inicio() {
 					</div>
 					<p className={styles.descAmpliadaContainer__texto}>
 						Somos una empresa de la ciudad de Argentina, Santa Fe, Rosario
-						dedicada a la fabricación y restauración de articulos para asados,
-						rejas, muebles industriales, galpones y tinglados entre otros
-						servicios y productos que ofrecemos. Nos basamos en el asesoramiento
-						al cliente, la venta sin intermediarios y la personalización de los
-						productos de nuestros clientes.
+						dedicada a la fabricación y restauración de articulos para asadores,
+						rejas, muebles industriales, galpones, tinglados y herrería naval
+						entre otros servicios y productos que ofrecemos. Nos basamos en el
+						asesoramiento al cliente, la venta sin intermediarios y la
+						personalización de los productos de nuestros clientes.
 						<br />
-						Con más de 16 años en el rubro, y una cantidad importante de
+						Con más de 40 años en el rubro, y una cantidad importante de
 						clientes satisfechos en todo el país, podemos brindarle la solución
 						a medida de su necesidad.
 					</p>
@@ -98,13 +97,13 @@ export default function Inicio() {
 						<h2 className="titulo_1">PRODUCTOS</h2>
 						<div className={styles.prodYServiciosContainer}>
 							<CategoriaCard
-								linkHref="/productos-y-servicios/asadores?pag=1"
+								linkHref="/productos-y-servicios/asadores/1"
 								imgSrc="/assets/media/icons/webp/asadoresIcon.webp"
 								imgAlt="Icono asadores"
 								txtLink="ASADORES"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios/accesoriosParaAsados?pag=1"
+								linkHref="/productos-y-servicios/accesoriosParaAsados/1"
 								imgSrc="/assets/media/icons/webp/accesoriosParrillasIcon.webp"
 								imgAlt="Imagen accesorios para asados"
 								txtLink="ACCESORIOS PARA ASADOS"
@@ -116,7 +115,7 @@ export default function Inicio() {
 								txtLink="REJAS"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios/muebles-industriales"
+								linkHref="/productos-y-servicios/muebles-industriales/1"
 								imgSrc="/assets/media/icons/webp/mueblesIndustrialesIcon.webp"
 								imgAlt="Imagen de muebles industriales."
 								txtLink="MUEBLES IND."
@@ -152,19 +151,19 @@ export default function Inicio() {
 						<h2 className="titulo_1">SERVICIOS</h2>
 						<div className={styles.prodYServiciosContainer}>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/asesoramiento/"
 								imgSrc="/assets/media/icons/webp/asesoramientoIcon.webp"
 								imgAlt="Imagen asesoramiento"
 								txtLink="ASESORAMIENTO"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/instalacion/"
 								imgSrc="/assets/media/icons/webp/instalacionIcon.webp"
 								imgAlt="Imagen asesoramiento"
 								txtLink="INSTALACIONES"
 							/>
 							<CategoriaCard
-								linkHref="/productos-y-servicios"
+								linkHref="/productos-y-servicios/restauraciones/"
 								imgSrc="/assets/media/icons/webp/restauracionIcon.webp"
 								imgAlt="Imagen asesoramiento"
 								txtLink="RESTAURACIONES"

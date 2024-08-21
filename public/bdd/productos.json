@@ -436,7 +436,7 @@
 						"/assets/media/productosyservicios/productos/accesoriosParaAsados/2/small_1.avif"
 					],
 					"detailed": [
-						"/assets/media/productosyservicios/productos/asadores/2/detailed_1.avif"
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/2/detailed_1.avif"
 					]
 				},
 				"tags": ["plancha", "plancha bifera", "cocina"]
@@ -456,8 +456,8 @@
 						"/assets/media/productosyservicios/productos/accesoriosParaAsados/3/small_2.avif"
 					],
 					"detailed": [
-						"/assets/media/productosyservicios/productos/asadores/3/detailed_1.avif",
-						"/assets/media/productosyservicios/productos/asadores/3/detailed_2.avif"
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/3/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/3/detailed_2.avif"
 					]
 				},
 				"tags": ["parrilla", "doble", "asado", "dos fuegos"]
@@ -478,9 +478,9 @@
 						"/assets/media/productosyservicios/productos/accesoriosParaAsados/4/small_3.avif"
 					],
 					"detailed": [
-						"/assets/media/productosyservicios/productos/asadores/4/detailed_1.avif",
-						"/assets/media/productosyservicios/productos/asadores/4/detailed_2.avif",
-						"/assets/media/productosyservicios/productos/asadores/4/detailed_2.avif"
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/4/detailed_1.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/4/detailed_2.avif",
+						"/assets/media/productosyservicios/productos/accesoriosParaAsados/4/detailed_2.avif"
 					]
 				},
 				"tags": ["barra", "asados", "parrilleros", "móvil", "movil"]

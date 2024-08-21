@@ -103,7 +103,7 @@ const Menu = () => {
 			<Link
 				href="/contacto"
 				className={`menuContainer__item ${
-					pathname === "/contacto" ? "activeSection" : ""
+					pathname === "/contacto/" ? "activeSection" : ""
 				}  ${responsiveMenuOpen ? "flexVisible" : ""}`}
 				onClick={() => {
 					setResponsiveMenuOpen(false);
@@ -112,7 +112,7 @@ const Menu = () => {
 				<ContactIcon
 					width={36}
 					height={36}
-					color={pathname === "/contacto" ? `${activeColor}` : "#e3dad3"}
+					color={pathname === "/contacto/" ? `${activeColor}` : "#e3dad3"}
 				/>
 				CONTACTO
 			</Link>

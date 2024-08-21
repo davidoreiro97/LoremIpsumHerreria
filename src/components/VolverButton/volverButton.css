@@ -2,8 +2,8 @@
 	left: 0;
 	margin-top: clamp(0em, calc(2vw + 0.2em), 0.8em);
 	margin-left: clamp(0em, calc(2vw + 0.2em), 0.8em);
-	height: clamp(16px, calc(5vw + 5px), 48px);
-	width: clamp(16px, calc(5vw + 5px), 48px);
+	height: clamp(32px, calc(5vw + 5px), 48px);
+	width: clamp(32px, calc(5vw + 5px), 48px);
 }
 .volverButton svg {
 	height: 100%;

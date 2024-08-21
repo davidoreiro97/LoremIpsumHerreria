@@ -1,6 +1,7 @@
 .imgYgaleriaMinContainer {
 	display: flex;
 	height: clamp(200px, calc(100px + 25vw), 500px);
+	max-width: 50%;
 }
 .imgYgaleriaMinContainer__galeriaMin {
 	display: flex;
@@ -16,6 +17,7 @@
 .imgYgaleriaMinContainer__galeriaMin__img {
 	width: 100%;
 	height: calc(20% - 2.5%);
+
 	cursor: pointer;
 }
 .imgYgaleriaMinContainer__galeriaMin__MasImgBtn {
@@ -24,6 +26,7 @@
 	justify-content: center;
 	background-color: white;
 	text-align: center;
+
 	width: 100%;
 	height: calc(20%);
 	font-size: 64px;
@@ -34,6 +37,7 @@
 }
 .imgYgaleriaMinContainer__img {
 	height: 100%;
+	max-width: 80%;
 	width: auto;
 	cursor: pointer;
 }
@@ -54,12 +58,21 @@
 	.imgYgaleriaMinContainer {
 		flex-direction: column;
 		height: auto;
-		width: clamp(200px, calc(100px + 25vw), 500px);
+		max-height: 400px;
+		width: 100%;
+		max-width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+	.imgYgaleriaMinContainer__img {
+		height: 100%;
+		max-height: 350px;
 	}
 	.imgYgaleriaMinContainer__galeriaMin {
 		display: flex;
 		gap: 2.5%;
 		flex-direction: row;
+		justify-content: center;
 		height: 35px;
 		width: 100%;
 		margin: 0em;
